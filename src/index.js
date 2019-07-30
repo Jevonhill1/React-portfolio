@@ -13,9 +13,9 @@ class Home extends Component {
     return (
       <Router>
         <div>
-          <ul>
+          <ul className="navbar">
             <li>
-              <Link to="/Resume">Resume</Link>
+              <Link to="/Resume">About Me</Link>
             </li>
             <li>
               <Link to="/Contact">Contact</Link>
